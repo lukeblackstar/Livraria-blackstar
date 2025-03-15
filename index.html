@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Blackstar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="book-icon"><i class="fas fa-book-open"></i></span>
+                <h1>Livraria Blackstar</h1>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Início</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Mais Vendidos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="search-cart">
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar livros...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Descubra novos mundos através dos livros</h2>
+            <p>Explore nossa coleção de clássicos e lançamentos. Uma aventura em cada página.</p>
+            <button class="cta-button">Explorar Agora</button>
+        </div>
+        <div class="hero-image">
+            <div class="book book-1"></div>
+            <div class="book book-2"></div>
+            <div class="book book-3"></div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <h2 class="section-title">Destaques da Semana</h2>
+        <div class="book-slider">
+            <button class="slider-arrow prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="books-container">
+                <div class="book-card">
+                    <div class="book-cover">
+                        <div class="ribbon">20% OFF</div>
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/81ibfYk4qmL.jpg" alt="Livro 1">
+                        <div class="hover-info">
+                            <p>Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural.</p>
+                            <button class="quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Harry Potter e a Pedra Filosofal</h3>
+                        <p class="author">J.K Rowling</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.5)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">R$ 39,90</span>
+                            <span class="original-price">R$ 49,90</span>
+                        </div>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="https://m.media-amazon.com/images/I/81jbivNEVML._SL1500_.jpg" alt="Livro 2">
+                        <div class="hover-info">
+                            <p>Depois de férias aborrecidas na casa dos tios trouxas, está na hora de Harry Potter voltar a estudar. Coisas acontecem, no entanto, para dificultar o regresso de Harry.</p>
+                            <button class="quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Harry Potter e a Câmara Secreta</h3>
+                        <p class="author">J.K Rowling</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(4.0)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">R$ 45,90</span>
+                        </div>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <div class="ribbon new">NOVO</div>
+                        <img src="https://m.media-amazon.com/images/I/81u+ljPVifL._SL1500_.jpg" alt="Livro 3">
+                        <div class="hover-info">
+                            <p>As aulas estão de volta à Hogwarts e Harry Potter não vê a hora de embarcar no expresso a vapor que o levará de volta à escola de bruxaria. Mais uma vez suas férias na rua dos Alfeneiros foi triste e solitária.</p>
+                            <button class="quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Harry Potter e o Prisioneiro de Azkaban</h3>
+                        <p class="author">J.K Rowling</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">R$ 59,90</span>
+                        </div>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="https://m.media-amazon.com/images/I/81nTLN-kz7L._SL1500_.jpg" alt="Livro 4">
+                        <div class="hover-info">
+                            <p>Harry é escolhido pelo Cálice de Fogo para competir como um dos campeões de Hogwarts, tendo ao lado seus fiéis amigos. Muitos desafios, feitiços, poções e confusões estão reservados para Harry. Além disso, ele terá que lidar ainda com os problemas comuns da adolescência amor, amizade, aceitação e rejeição.</p>
+                            <button class="quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Harry Potter e o Cálice de Fogo</h3>
+                        <p class="author">J.K Rowling</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <span>(3.5)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">R$ 42,90</span>
+                        </div>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-arrow next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section class="categories">
+        <h2 class="section-title">Navegue por Categorias</h2>
+        <div class="category-container">
+            <div class="category-card">
+                <div class="category-icon"><i class="fas fa-heart"></i></div>
+                <h3>Romance</h3>
+                <p>Histórias de amor que vão tocar seu coração</p>
+                <a href="#" class="category-link">Ver livros <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card">
+                <div class="category-icon"><i class="fas fa-hat-wizard"></i></div>
+                <h3>Fantasia</h3>
+                <p>Mundos mágicos e criaturas fantásticas</p>
+                <a href="#" class="category-link">Ver livros <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card">
+                <div class="category-icon"><i class="fas fa-rocket"></i></div>
+                <h3>Ficção Científica</h3>
+                <p>Aventuras futurísticas e tecnologias incríveis</p>
+                <a href="#" class="category-link">Ver livros <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card">
+                <div class="category-icon"><i class="fas fa-ghost"></i></div>
+                <h3>Suspense</h3>
+                <p>Mistérios e histórias que prendem sua atenção</p>
+                <a href="#" class="category-link">Ver livros <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Fique por dentro das novidades!</h2>
+            <p>Cadastre-se para receber lançamentos, promoções e eventos em primeira mão.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">O que dizem nossos leitores</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <div class="testimonial-content">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"A entrega foi super rápida e o livro chegou em perfeito estado. Estou adorando a leitura!"</p>
+                    <div class="testimonial-author">
+                        <span class="name">Mariana Ribeiro</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"Encontrei títulos raros que procurava há anos. Com certeza esta se tornou minha livraria favorita!"</p>
+                    <div class="testimonial-author">
+                        <span class="name">Lucas Andrade</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"Atendimento excelente e uma curadoria impecável de livros. Recomendo fortemente para todos os amantes da leitura."</p>
+                    <div class="testimonial-author">
+                        <span class="name">Astrid Andrade</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Livraria Blackstar</h3>
+                <p>Uma experiência única para os amantes da leitura, com livros cuidadosamente selecionados para todos os gostos.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contato</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Av. das Letras, 123</li>
+                    <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
+                    <li><i class="fas fa-envelope"></i> blackstar@livraria.com</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Horário de Funcionamento</h3>
+                <ul class="hours">
+                    <li>Segunda a Sexta: 9h às 21h</li>
+                    <li>Sábados: 10h às 18h</li>
+                    <li>Domingos: 12h às 16h</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2<div class="footer-bottom">
+                <p>&copy; 2025 Livraria Blackstar. Todos os direitos reservados.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </footer>
+    
+<div class="book-modal" id="bookModal1">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal(1)">&times;</span>
+        <div class="modal-book-details">
+            <div class="modal-book-image">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81ibfYk4qmL.jpg" alt="Harry Potter e a Pedra Filosofal">
+            </div>
+            <div class="modal-book-info">
+                <h2>Harry Potter e a Pedra Filosofal</h2>
+                <p class="modal-author">Por J.K Rowling</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5 - 128 avaliações)</span>
+                </div>
+                <div class="modal-price">
+                    <span class="current-price">R$ 39,90</span>
+                    <span class="original-price">R$ 49,90</span>
+                    <span class="discount">20% OFF</span>
+                </div>
+                <div class="modal-description">
+                    <h3>Sinopse</h3>
+                    <p>Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. Pelo contrário. Até os 10 anos, Harry foi uma espécie de gata borralheira: maltratado pelos tios, herdava roupas velhas do primo gorducho, tinha óculos remendados e era tratado como um estorvo. No dia de seu aniversário de 11 anos, entretanto, ele parece deslizar por um buraco sem fundo, como o de Alice no país das maravilhas, que o conduz a um mundo mágico. Descobre sua verdadeira história e seu destino: ser um aprendiz de feiticeiro até o dia em que terá que enfrentar a pior força do mal, o homem que assassinou seus pais. O menino de olhos verde, magricela e desengonçado, tão habituado à rejeição, descobre, também, que é um herói no universo dos magos. Potter fica sabendo que é a única pessoa a ter sobrevivido a um ataque do tal bruxo do mal e essa é a causa da marca em forma de raio que ele carrega na testa. Ele não é um garoto qualquer, ele sequer é um feiticeiro qualquer ele é Harry Potter, símbolo de poder, resistência e um líder natural entre os sobrenaturais. A fábula, recheada de fantasmas, paredes que falam, caldeirões, sapos, unicórnios, dragões e gigantes, não é, entretanto, apenas um passatempo.
+                    </p>
+                </div>
+                <div class="book-details">
+                    <div class="detail">
+                        <span>Páginas:</span>
+                        <span>326</span>
+                    </div>
+                    <div class="detail">
+                        <span>Editora:</span>
+                        <span>Editora Blackstar</span>
+                    </div>
+                    <div class="detail">
+                        <span>Publicação:</span>
+                        <span>02 de Março, 2025</span>
+                    </div>
+                    <div class="detail">
+                        <span>ISBN:</span>
+                        <span>978-3-16-148410-0</span>
+                    </div>
+                    <div class="detail">
+                        <span>Idioma:</span>
+                        <span>Português</span>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <div class="quantity">
+                        <button class="qty-btn minus">-</button>
+                        <input type="number" value="1" min="1" max="10">
+                        <button class="qty-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart-modal">Adicionar ao Carrinho</button>
+                    <button class="wishlist-btn"><i class="far fa-heart"></i> Lista de Desejos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="book-modal" id="bookModal2">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal(2)">&times;</span>
+        <div class="modal-book-details">
+            <div class="modal-book-image">
+                <img src="https://m.media-amazon.com/images/I/81jbivNEVML._SL1500_.jpg" alt="Harry Potter e a Câmara Secreta">
+            </div>
+            <div class="modal-book-info">
+                <h2>Harry Potter e a Câmara Secreta</h2>
+                <p class="modal-author">Por J.K Rowling</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(4.0 - 120 avaliações)</span>
+                </div>
+                <div class="modal-price">
+                    <span class="current-price">R$ 45,90</span>
+                </div>
+                <div class="modal-description">
+                    <h3>Sinopse</h3>
+                    <p>Depois de férias aborrecidas na casa dos tios trouxas, está na hora de Harry Potter voltar a estudar. Coisas acontecem, no entanto, para dificultar o regresso de Harry. Persistente e astuto, o herói não se deixa intimidar pelos obstáculos e, com a ajuda dos fiéis amigos Weasley, começa o ano letivo na Escola de Magia e Bruxaria de Hogwarts. As novidades não são poucas. Novos colegas, novos professores, muitas e boas descobertas e um grande e perigosos desafio. Alguém ou alguma coisa ameaça a segurança e a tranquilidade dos membros de Hogwarts.</p>
+                </div>
+                <div class="book-details">
+                    <div class="detail">
+                        <span>Páginas:</span>
+                        <span>340</span>
+                    </div>
+                    <div class="detail">
+                        <span>Editora:</span>
+                        <span>Editora Blackstar</span>
+                    </div>
+                    <div class="detail">
+                        <span>Publicação:</span>
+                        <span>10 de Abril, 2025</span>
+                    </div>
+                    <div class="detail">
+                        <span>ISBN:</span>
+                        <span>978-3-16-148411-7</span>
+                    </div>
+                    <div class="detail">
+                        <span>Idioma:</span>
+                        <span>Português</span>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <div class="quantity">
+                        <button class="qty-btn minus">-</button>
+                        <input type="number" value="1" min="1" max="10">
+                        <button class="qty-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart-modal">Adicionar ao Carrinho</button>
+                    <button class="wishlist-btn"><i class="far fa-heart"></i> Lista de Desejos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="book-modal" id="bookModal3">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal(1)">&times;</span>
+        <div class="modal-book-details">
+            <div class="modal-book-image">
+                <img src="https://m.media-amazon.com/images/I/81u+ljPVifL._SL1500_.jpg" alt="Harry Potter e o Prisioneiro de Azkaban">
+            </div>
+            <div class="modal-book-info">
+                <h2>Harry Potter e o Prisioneiro de Azkaban</h2>
+                <p class="modal-author">Por J.K Rowling</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(5.0 - 165 avaliações)</span>
+                </div>
+                <div class="modal-price">
+                    <span class="current-price">R$ 39,90</span>
+                    <span class="original-price">R$ 49,90</span>
+                    <span class="discount">20% OFF</span>
+                </div>
+                <div class="modal-description">
+                    <h3>Sinopse</h3>
+                    <p>As aulas estão de volta à Hogwarts e Harry Potter não vê a hora de embarcar no expresso a vapor que o levará de volta à escola de bruxaria. Mais uma vez suas férias na rua dos Alfeneiros foi triste e solitária. Com muita ação, humor e magia, 'Harry Potter e o prisioneiro de Azkaban' traz de volta o gigante atrapalhado Rúbeo Hagrid, o sábio diretor Alvo Dumbledore, a exigente professora de transformação Minerva MacGonagall e o novo mestre Lupin, que guarda grandes surpresas para Harry.</p>
+                </div>
+                <div class="book-details">
+                    <div class="detail">
+                        <span>Páginas:</span>
+                        <span>344</span>
+                    </div>
+                    <div class="detail">
+                        <span>Editora:</span>
+                        <span>Editora Blackstar</span>
+                    </div>
+                    <div class="detail">
+                        <span>Publicação:</span>
+                        <span>02 de Março, 2025</span>
+                    </div>
+                    <div class="detail">
+                        <span>ISBN:</span>
+                        <span>978-3-16-148410-0</span>
+                    </div>
+                    <div class="detail">
+                        <span>Idioma:</span>
+                        <span>Português</span>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <div class="quantity">
+                        <button class="qty-btn minus">-</button>
+                        <input type="number" value="1" min="1" max="10">
+                        <button class="qty-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart-modal">Adicionar ao Carrinho</button>
+                    <button class="wishlist-btn"><i class="far fa-heart"></i> Lista de Desejos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="book-modal" id="bookModal4">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal(1)">&times;</span>
+        <div class="modal-book-details">
+            <div class="modal-book-image">
+                <img src="https://m.media-amazon.com/images/I/81nTLN-kz7L._SL1500_.jpg" alt="Harry Potter e o Cálice de Fogo">
+            </div>
+            <div class="modal-book-info">
+                <h2>Harry Potter e o Cálice de Fogo</h2>
+                <p class="modal-author">Por J.K Rowling</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5 - 238 avaliações)</span>
+                </div>
+                <div class="modal-price">
+                    <span class="current-price">R$ 39,90</span>
+                    <span class="original-price">R$ 49,90</span>
+                    <span class="discount">20% OFF</span>
+                </div>
+                <div class="modal-description">
+                    <h3>Sinopse</h3>
+                    <p>Nesta aventura, o feiticeiro cresceu e está com 14 anos. O início do ano letivo de Harry Potter reserva muitas emoções, mágicas, e acontecimentos inesperados, além de um novo torneio em que os alunos de Hogwarts terão de demonstrar todas as habilidade mágicas e nãomágicas que vêm adquirindo ao longo de suas vidas. Harry é escolhido pelo Cálice de Fogo para competir como um dos campeões de Hogwarts, tendo ao lado seus fiéis amigos. Muitos desafios, feitiços, poções e confusões estão reservados para Harry. Além disso, ele terá que lidar ainda com os problemas comuns da adolescência amor, amizade, aceitação e rejeição</p>
+                </div>
+                <div class="book-details">
+                    <div class="detail">
+                        <span>Páginas:</span>
+                        <span>407</span>
+                    </div>
+                    <div class="detail">
+                        <span>Editora:</span>
+                        <span>Editora Blackstar</span>
+                    </div>
+                    <div class="detail">
+                        <span>Publicação:</span>
+                        <span>02 de Março, 2025</span>
+                    </div>
+                    <div class="detail">
+                        <span>ISBN:</span>
+                        <span>978-3-16-148410-0</span>
+                    </div>
+                    <div class="detail">
+                        <span>Idioma:</span>
+                        <span>Português</span>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <div class="quantity">
+                        <button class="qty-btn minus">-</button>
+                        <input type="number" value="1" min="1" max="10">
+                        <button class="qty-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart-modal">Adicionar ao Carrinho</button>
+                    <button class="wishlist-btn"><i class="far fa-heart"></i> Lista de Desejos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
