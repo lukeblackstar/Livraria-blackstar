@@ -18,13 +18,6 @@ O principal objetivo deste projeto é praticar e melhorar as habilidades de desi
 - Layout moderno com foco em apresentação de livros.
 - Interações simples com JavaScript para melhorar a experiência do usuário.
 
-## Como rodar o projeto
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/lukeblackstar/Livraria-blackstar.git 
-
 ![Image](https://github.com/user-attachments/assets/63a78f86-3803-4887-bd66-57f5cef9805e)
 
 ![Image](https://github.com/user-attachments/assets/5f200616-dfae-4c9f-b664-14623b18e2f0)
