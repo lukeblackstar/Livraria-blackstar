@@ -23,4 +23,14 @@ O principal objetivo deste projeto é praticar e melhorar as habilidades de desi
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/lukeblackstar/Livraria-blackstar.git
+git clone https://github.com/lukeblackstar/Livraria-blackstar.git 
+
+![Image](https://github.com/user-attachments/assets/63a78f86-3803-4887-bd66-57f5cef9805e)
+
+![Image](https://github.com/user-attachments/assets/5f200616-dfae-4c9f-b664-14623b18e2f0)
+
+![Image](https://github.com/user-attachments/assets/9440d3ed-c4ec-4867-946d-82a174e70d78)
+
+![Image](https://github.com/user-attachments/assets/477adc02-a855-4ecb-a88a-b729d48ea0cd)
+
+![Image](https://github.com/user-attachments/assets/5530dd65-1e63-4988-ab0d-12cabd88d768)
